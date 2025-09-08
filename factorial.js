@@ -32,6 +32,17 @@ rl.question("enter your choice (1-3)", choice =>{
                 }
                 console.log("the factorial of "+ num + " is " + fact);
             }
+             backToMenu();
+        });
+        function backToMenu(){
+    console.log("--------");
+    console.log("1. Back to menu");
+    console.log("2. Exit");
+
+    rl.question("What would you like to do next? (1-2): ", (backtoMenuChoice) => {
+        if(backtoMenuChoice ==="1"){
+            console.clear();
+            mainMenu();
     } else if (choice==="3"){
          console.log ("exciting programming!");
          rl.close();
