@@ -1,5 +1,5 @@
-class hero{
-    shealth;
+class Hero{
+    #health;
 
     constructor(name,health,attack){
         this.name = name;
@@ -7,10 +7,16 @@ class hero{
         this.attack = attack;
     }
     gethealth(){
-      return this.health;
+      return this.#health;
   }
 }
- 
-const hero = new hero("Thorin",100,10);
 
-console.log(hero.gethealth());
+class Warrior extends Hero{
+    useAbility(){
+        console.log(`${this.name} use power strike`);
+    }
+}
+
+
+const warrior = new Warrior("Thorin",100,10);
+warrior.useAbility();
