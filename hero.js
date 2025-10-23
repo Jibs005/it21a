@@ -18,7 +18,8 @@ getAttack(){
     console.log(this.attack);
 }
 
-  getstatus(){
+  getStats(){
+    console.log("\n");
     console.log("name: " + this.name);
     console.log("health: " + this.health);
     console.log("attack: " + this.attack);
