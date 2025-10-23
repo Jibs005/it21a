@@ -1,0 +1,17 @@
+{"labels": [ "Communication", "Teamwork", "Problem Solving", "Adaptability", "Creativity"],
+"datasets": [
+
+    {
+        "label": "Boy",
+        "data": [85, 90, 75, 80, 70],
+        "backgroundColor": "rgba(75, 192, 192, 0.2)",
+        "borderColor": "rgb(0, 0, 255)"
+    },
+    {
+        "label": "Girl",
+        "data": [70, 80, 90, 85, 75],
+        "backgroundColor": "rgba(153, 102, 255, 0.2)",
+        "borderColor": "rgb(238, 130, 238)"
+    }
+]
+}
